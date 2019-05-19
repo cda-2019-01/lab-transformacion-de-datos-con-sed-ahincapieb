@@ -26,6 +26,6 @@ sed 's/,$/,\\N/g' data10.csv > labfinal.csv
 # Extraer registros no nulos
 #sed '/\N/d' data10.csv > labfinal.csv
 # Borrar archivos resultantes
-#rm data*
+rm data*
 # Resultado final
 cat labfinal.csv
